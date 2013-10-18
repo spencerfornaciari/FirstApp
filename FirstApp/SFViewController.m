@@ -8,16 +8,25 @@
 
 #import "SFViewController.h"
 
-@interface SFViewController ()
-
-@end
-
 @implementation SFViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //[_mySwitch setOn:NO];
+}
+
+- (IBAction)logSwitchStatus:(id)sender
+{
+    NSLog(@"Switch is: %d", _mySwitch.isOn);
+}
+
+- (IBAction)logSliderStatus:(id)sender
+{
+    if (_mySlider.value > 0.5){
+        NSLog(@"Slider is: %f", _mySlider.value);
+    }
 }
 
 - (void)didReceiveMemoryWarning

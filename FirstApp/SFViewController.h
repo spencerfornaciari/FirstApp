@@ -10,4 +10,10 @@
 
 @interface SFViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UISwitch *mySwitch;
+@property (nonatomic, weak) IBOutlet UISlider *mySlider;
+
+- (IBAction)logSwitchStatus:(id)sender;
+- (IBAction)logSliderStatus:(id)sender;
+
 @end

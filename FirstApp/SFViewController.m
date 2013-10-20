@@ -14,19 +14,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    //[_mySwitch setOn:NO];
+    self.myLogButton.backgroundColor = [UIColor lightGrayColor];
+    self.myTransitionButton.backgroundColor = [UIColor yellowColor];
+    
 }
 
 - (IBAction)logSwitchStatus:(id)sender
 {
-    NSLog(@"Switch is: %d", _mySwitch.isOn);
+    NSLog(@"Switch is: %d", self.mySwitch.isOn);
 }
 
 - (IBAction)logSliderStatus:(id)sender
 {
     if (_mySlider.value > 0.5){
-        NSLog(@"Slider is: %f", _mySlider.value);
+        NSLog(@"Slider is: %f", self.mySlider.value);
     }
+}
+
+- (IBAction)logButtonTouch:(id)sender
+{
+    NSLog(@"This is being logged by %@", self.myLogButton.titleLabel.text);
 }
 
 - (void)didReceiveMemoryWarning

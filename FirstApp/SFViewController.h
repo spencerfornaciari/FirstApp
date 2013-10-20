@@ -10,10 +10,15 @@
 
 @interface SFViewController : UIViewController
 
-@property (nonatomic, weak) IBOutlet UISwitch *mySwitch;
-@property (nonatomic, weak) IBOutlet UISlider *mySlider;
+@property (nonatomic, strong) IBOutlet UILabel *myLabel;
+@property (nonatomic, strong) IBOutlet UISwitch *mySwitch;
+@property (nonatomic, strong) IBOutlet UISlider *mySlider;
+@property (nonatomic, strong) IBOutlet UIButton *myLogButton;
+@property (nonatomic, strong) IBOutlet UIButton *myTransitionButton;
+
 
 - (IBAction)logSwitchStatus:(id)sender;
 - (IBAction)logSliderStatus:(id)sender;
+- (IBAction)logButtonTouch:(id)sender;
 
 @end

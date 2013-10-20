@@ -21,6 +21,7 @@
 		896671781810D9E1006B4D74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8966715A1810D9E1006B4D74 /* UIKit.framework */; };
 		896671801810D9E1006B4D74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8966717E1810D9E1006B4D74 /* InfoPlist.strings */; };
 		896671821810D9E1006B4D74 /* FirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896671811810D9E1006B4D74 /* FirstAppTests.m */; };
+		89E1799B18148CF500090AA5 /* SFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E1799A18148CF500090AA5 /* SFSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8966717D1810D9E1006B4D74 /* FirstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstAppTests-Info.plist"; sourceTree = "<group>"; };
 		8966717F1810D9E1006B4D74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		896671811810D9E1006B4D74 /* FirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstAppTests.m; sourceTree = "<group>"; };
+		89E1799918148CF500090AA5 /* SFSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSecondViewController.h; sourceTree = "<group>"; };
+		89E1799A18148CF500090AA5 /* SFSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				8966716C1810D9E1006B4D74 /* SFViewController.m */,
 				8966716E1810D9E1006B4D74 /* Images.xcassets */,
 				8966715D1810D9E1006B4D74 /* Supporting Files */,
+				89E1799918148CF500090AA5 /* SFSecondViewController.h */,
+				89E1799A18148CF500090AA5 /* SFSecondViewController.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				896671631810D9E1006B4D74 /* main.m in Sources */,
 				8966716D1810D9E1006B4D74 /* SFViewController.m in Sources */,
 				896671671810D9E1006B4D74 /* SFAppDelegate.m in Sources */,
+				89E1799B18148CF500090AA5 /* SFSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				896671871810D9E1006B4D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		896671881810D9E1006B4D74 /* Build configuration list for PBXNativeTarget "FirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				8966718A1810D9E1006B4D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

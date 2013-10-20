@@ -26,7 +26,7 @@
 
 - (IBAction)logSliderStatus:(id)sender
 {
-    if (_mySlider.value > 0.5){
+    if (self.mySlider.value > 0.5){
         NSLog(@"Slider is: %f", self.mySlider.value);
     }
 }

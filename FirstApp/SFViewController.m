@@ -36,6 +36,7 @@
     NSLog(@"This is being logged by %@", self.myLogButton.titleLabel.text);
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

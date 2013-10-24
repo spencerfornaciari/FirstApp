@@ -13,4 +13,6 @@
 @property (nonatomic, strong) IBOutlet UIButton *myReturnButton;
 @property (nonatomic, strong) IBOutlet UILabel *mySecondLabel;
 
+-(IBAction)returnToOriginal:(id)sender;
+
 @end
